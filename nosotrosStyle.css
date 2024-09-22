@@ -1,0 +1,138 @@
+/* Estilos para la sección "Nosotros" */
+#nosotros {
+  
+    padding: 2rem;
+}
+#modeloTrabajo {
+
+     padding: 2rem;
+ }
+ 
+#Metodologia {
+   
+     padding: 2rem;
+ }
+
+#nosotros .container {
+    text-align: center;
+}
+
+#nosotros h1.title {
+    margin-bottom: 3rem;
+}
+
+#nosotros img {
+    margin-bottom: 4rem;
+}
+
+#nosotros .large_text {
+    width: 60%;
+    text-align: justify;
+    text-justify: inter-word;
+    line-height: 2rem;
+}
+
+
+#ProyectoAccion {
+    background-image: url(https://img.freepik.com/vector-premium/pizarra-pizarra-oficina-realista-marco-plastico_208536-94.jpg);
+    padding: 2rem;
+}
+
+
+#ProyectoAccion .title.Pacc{
+    margin-bottom: 3rem;
+}
+ .video-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;  
+    padding: 20px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+}
+
+.video-container iframe {
+   position: center;
+    width:230%;
+    height: 500px;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+iframe {
+    overflow-clip-margin: content-box !important;
+    overflow: clip !important;
+    border-width: 5px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+}
+
+
+#EquipoDev .titlehide{
+    position: center;
+}
+
+.project-border {
+    border: 2px solid #fff; /* Agrega un borde alrededor de la sección de proyecto en acción */
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.team-member {
+    margin: 1rem;
+}
+
+.team-image {
+    width: 150px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+}
+
+.team-member .container {
+   text-align: flex;
+}
+
+.team-member-description {
+    text-align: center;
+}
+
+
+#Metodologia .table {
+    width: 150%;
+    background-color: #bccfe1;
+    border: #22415e;
+    margin-top: 2rem;
+
+}
+
+
+#Metodologia h4 {
+    margin-bottom: 1rem;
+}
+
+#Metodologia ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+#Metodologia li {
+    margin-bottom: 0.5rem;
+}
+
+#Metodologia p {
+    margin-bottom: 1rem;
+    font-family: sans-serif;
+}
+
+
+
+

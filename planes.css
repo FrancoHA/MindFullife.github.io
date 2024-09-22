@@ -1,0 +1,125 @@
+.seccion{
+    text-align: center;
+    margin-top: 15vh;
+    line-height: 3rem;
+    z-index: 0;
+}
+
+.seccion button{
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: white;
+    background-color: #61A8EF;
+    border-radius: 30px;
+    border: none;
+    padding: 0.7em 1.5em 0.7em 1.5em;
+    cursor: pointer;
+}
+
+.seccion .card button{
+    position: absolute;
+    top:85%
+}
+
+.seccion h1{
+    font-size: 3rem;
+}
+
+.seccion h2{
+    font-size:2rem
+}
+
+.seccion.planes{
+    margin-top: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.seccion h3{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: lighter;
+    font-size: 1em;
+}
+
+.secondary{
+    margin-top: 2rem;
+}
+
+.planes .card{
+    align-items: center;
+    justify-content: start;
+}
+
+.planes h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.planes .card h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.precio{
+    display:flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    line-height: normal;
+    position: relative;
+    top:6%;
+}
+.valor{
+    font-size: 3rem;
+    text-align: right;
+    padding-right: 0.8rem;
+    width: 40%;
+
+}
+.extra{
+    text-align: left;
+    padding-top: 0.8rem;
+    width: 60%;
+    font-size: 0.9rem;
+}
+.planinfo{
+    font-size: 1rem;
+    line-height: 1.8rem;
+    position: relative;
+    top: 8%;
+}
+.card_plan_head{
+    position: relative;
+    top:3%;
+}
+.card_plan_head h2{
+    font-size: 1.5rem;
+}
+
+.seccion .card{
+    min-height: 23vw;
+    height: fit-content;
+}
+
+.card.plan:nth-child(2){
+    transition-delay: 200ms;
+}
+.card.plan:nth-child(3){
+    transition-delay: 400ms;
+}
+.card.plan:nth-child(4){
+    transition-delay: 600ms;
+}
+@media (width<=900px) {
+    .cards{
+        flex-direction: column;
+    }
+}
+ul{
+    list-style-type: disc;
+    list-style-image: url('assets\images\ic_svg\check-solid.svg');
+}
+
+.card:hover{
+    transform: scale(1.1);
+    filter:none;
+}
